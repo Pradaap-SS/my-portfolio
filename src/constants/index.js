@@ -14,14 +14,15 @@ import {
     mongodb,
     git,
     figma,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    oraclecerner,
+    cognizant,
+    infosys,
     carrent,
     jobit,
     tripguide,
     threejs,
+    iit,
+    vtu,
   } from "../assets";
   
   export const navLinks = [
@@ -30,7 +31,7 @@ import {
       title: "About",
     },
     {
-      id: "education",
+      id: "educ",
       title: "Education",
     },
     {
@@ -123,11 +124,11 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Engineer 1",
+      company_name: "Oracle Cerner",
+      icon: oraclecerner,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Apr 2021 - Aug 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -136,43 +137,43 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Programmer Analyst Trainee",
+      company_name: "Cognizant",
+      icon: cognizant,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Sept 2020 - Apr 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Software Developer Intern",
+      company_name: "Infosys",
+      icon: infosys,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Feb 2020 - Mar 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "",
       ],
     },
+  ];
+
+  const educations = [
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Master of Computer Science",
+      company_name: "Illinois Institute of Technology",
+      icon: iit,
+      iconBg: "#383E56",
+      date: "Aug 2022 - May 2024",
+      points: [],
+    },
+    {
+      title: "Bachelor of Engineering",
+      company_name: "Visvesvaraya Technological University",
+      icon: vtu,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+      date: "Aug 2016 -  Aug 2020",
+      points: [],
     },
   ];
   
@@ -269,4 +270,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, educations, testimonials, projects };
