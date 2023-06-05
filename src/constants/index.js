@@ -199,10 +199,6 @@ import {
           name: "Framer Motion",
           color: "green-text-gradient",
         },
-        {
-          name: "Three.js",
-          color: "green-text-gradient",
-        },
       ],
       image: metaverse,
       source_code_link: "https://github.com/",
@@ -229,9 +225,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "ChatGPT: AI chat bot",
+      name: "ChatGPT clone",
       description:
-        "Seamless and interactive AI-powered ChatGPT clone developed with React, Next.js, Firebase, Tailwind CSS, and TypeScript.",
+        "Seamless and interactive AI-powered Chat bot developed with React, Next.js, Firebase, Tailwind CSS, and TypeScript.",
       tags: [
         {
           name: "Next.js 13",
