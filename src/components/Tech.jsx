@@ -30,7 +30,7 @@ const Tech = () => {
               Empowering Innovation and Problem-Solving
             </p>
             <h2 className={`${styles.sectionHeadText} flex flex-row justify-center text-center`}>
-                  Tech Skills
+                  Tech Skills.
             </h2>
           </motion.div>
 

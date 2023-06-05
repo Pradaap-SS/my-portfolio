@@ -38,9 +38,9 @@ const EducationCard = ({ education }) => {
      }
    >
      <div>
-       <h3 className='text-white text-[24px] font-normal'>{education.title}</h3>
+       <h3 className={`${styles.sectionSubText} text-white`}>{education.title}</h3>
        <p
-         className='text-secondary text-[16px] font-light'
+         className='text-secondary text-[16px] font-light sm:text-[12px] xs:text-[10px] tracking-wider'
          style={{ margin: 0 }}
        >
          {education.company_name}
