@@ -28,7 +28,7 @@ import {
     doc
   } from "../assets";
 
-  export const icons = [
+  const icons = [
     {
       name: 'LinkedIn',
       link: 'https://www.linkedin.com/in/pradaap-shobha/',
@@ -51,7 +51,7 @@ import {
     },
   ];
   
-  export const navLinks = [
+  const navLinks = [
     {
       id: "about",
       title: "About",
@@ -292,4 +292,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, educations, testimonials, projects };
+  export { navLinks, icons, services, technologies, experiences, educations, testimonials, projects};
