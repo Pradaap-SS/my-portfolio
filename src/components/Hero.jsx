@@ -2,8 +2,31 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { icons } from "../constants";
 
 const Hero = () => {
+
+  const handleClick = () => {
+    window.location.href = './About.jsx';
+  };
+
+  {/*useEffect(() => {
+    const iconContainer = document.getElementById("icon-container");
+
+    icons.forEach((icon) => {
+      const iconElement = document.createElement("a");
+      iconElement.href = icon.link;
+      iconElement.target = "_blank";
+      iconElement.rel = "noopener noreferrer";
+
+      const iconClass = document.createElement("i");
+      iconClass.className = icon.iconClass;
+
+      iconElement.appendChild(iconClass);
+      iconContainer.appendChild(iconElement);
+    });
+  }, []);*/}
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -18,11 +41,36 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>Pradaap</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-1 text-white-100`}>
             Software Engineer | Graduate Student
-            <br/> 
+          <br/> 
+
             <p className='font-normal sm:text-[16px] xs:text-[14px] text-[18px] text-secondary mt-1'> 
-            Read more About Me or Contact Me!</p>
+                I develop 3D visuals, user interfaces and web applications!
+            </p>
+
+            <div className='mt-2 flex flex-row gap-5'>
+                {icons.map((icon) => (
+                  <a
+                    key={icon.name}
+                    href={icon.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+
+                <img src={icon.iconClass} alt='icons' className='w-12 h-12 object-contain bg-white rounded-full' /> 
+                  </a>
+                ))}
+            </div>
+
+           <button
+            className=' mt-2 font-normal sm:text-[16px] xs:text-[14px] text-[18px] rounded-full border-[#f9f8fa] w-auto
+            duration-300 text-center text-secondary hover:text-white underline'
+            onClick={handleClick}
+           >
+            Schedule a meeting..
+          </button>
+
           </p>
         </div>
       </div>

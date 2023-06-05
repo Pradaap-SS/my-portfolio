@@ -1,7 +1,6 @@
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
     typescript,
@@ -13,7 +12,7 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
+    framermotion,
     oraclecerner,
     cognizant,
     infosys,
@@ -23,7 +22,34 @@ import {
     threejs,
     iit,
     vtu,
+    linkedln,
+    gmail,
+    gitHub,
+    doc
   } from "../assets";
+
+  export const icons = [
+    {
+      name: 'LinkedIn',
+      link: 'https://www.linkedin.com/in/pradaap-shobha/',
+      iconClass: linkedln,
+    },
+    {
+      name: 'Gmail',
+      link: 'mailto:pradaap.shobha@gmail.com',
+      iconClass: gmail,
+    },
+    {
+      name: 'GitHub',
+      link: 'https://github.com/Pradaap-SS',
+      iconClass: gitHub,
+    },
+    {
+      name: 'Resume',
+      link: 'https://example.com/your-resume.pdf',
+      iconClass: doc,
+    },
+  ];
   
   export const navLinks = [
     {
@@ -113,8 +139,8 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "framermotion",
+      icon: framermotion
     },
   ];
   

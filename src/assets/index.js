@@ -19,10 +19,16 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import framermotion from "./tech/framermotion.png"
 
 import infosys from "./company/infosys.png";
 import cognizant from "./company/cognizant.png";
 import oraclecerner from "./company/oraclecerner.png";
+
+import linkedln from "./icons/linkedin.png"
+import gmail from "./icons/gmail.png"
+import doc  from "./icons/doc.png"
+import gitHub from "./icons/gitHub.png"
 
 import iit from "./edu/iit.png";
 import vtu  from "./edu/vtu.png";
@@ -54,6 +60,7 @@ export {
   tailwind,
   typescript,
   threejs,
+  framermotion,
   oraclecerner,
   cognizant,
   infosys,
@@ -63,4 +70,8 @@ export {
   jobit,
   tripguide,
   profile,
+  linkedln,
+  gmail,
+  doc,
+  gitHub,
 };
