@@ -1,9 +1,4 @@
 import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -25,27 +20,24 @@ import infosys from "./company/infosys.png";
 import cognizant from "./company/cognizant.png";
 import oraclecerner from "./company/oraclecerner.png";
 
-import linkedln from "./icons/linkedin.png"
-import gmail from "./icons/gmail.png"
-import doc  from "./icons/doc.png"
-import gitHub from "./icons/gitHub.png"
+import linkedln from "./icons/linkedin.png";
+import gmail from "./icons/gmail.png";
+import doc  from "./icons/doc.png";
+import gitHub from "./icons/gitHub.png";
 
 import iit from "./edu/iit.png";
 import vtu  from "./edu/vtu.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 import profile from "./profile.png";
+
+import catgpt from "./proj/catgpt.png";
+import sumz from "./proj/sumz.png";
+import metaverse from "./proj/metaverse.png";
+import github from "./proj/github.png";
+import url from "./proj/url.png";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
   menu,
   close,
   css,
@@ -66,12 +58,14 @@ export {
   infosys,
   iit,
   vtu,
-  carrent,
-  jobit,
-  tripguide,
   profile,
   linkedln,
   gmail,
   doc,
   gitHub,
+  url,
+  github,
+  catgpt,
+  sumz,
+  metaverse,
 };

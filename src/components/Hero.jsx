@@ -1,31 +1,13 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 import { icons } from "../constants";
 
 const Hero = () => {
-
+  
   const handleClick = () => {
     window.location.href = './About.jsx';
   };
-
-  {/*useEffect(() => {
-    const iconContainer = document.getElementById("icon-container");
-
-    icons.forEach((icon) => {
-      const iconElement = document.createElement("a");
-      iconElement.href = icon.link;
-      iconElement.target = "_blank";
-      iconElement.rel = "noopener noreferrer";
-
-      const iconClass = document.createElement("i");
-      iconClass.className = icon.iconClass;
-
-      iconElement.appendChild(iconClass);
-      iconContainer.appendChild(iconElement);
-    });
-  }, []);*/}
 
   return (
     <section className={`relative w-full h-screen mx-auto`}>
@@ -74,8 +56,6 @@ const Hero = () => {
           </p>
         </div>
       </div>
-
-      <ComputersCanvas />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

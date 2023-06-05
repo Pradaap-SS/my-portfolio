@@ -1,7 +1,4 @@
 import {
-    mobile,
-    backend,
-    web,
     javascript,
     typescript,
     html,
@@ -16,16 +13,16 @@ import {
     oraclecerner,
     cognizant,
     infosys,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     iit,
     vtu,
     linkedln,
     gmail,
     gitHub,
-    doc
+    doc,
+    catgpt,
+    sumz,
+    metaverse,
   } from "../assets";
 
   const icons = [
@@ -69,27 +66,12 @@ import {
       title: "Tech",
     },
     {
-      id: "project",
-      title: "Project",
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
       title: "Contact",
-    },
-  ];
-  
-  const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
     },
   ];
   
@@ -139,7 +121,7 @@ import {
       icon: git,
     },
     {
-      name: "framermotion",
+      name: "Framer Motion",
       icon: framermotion
     },
   ];
@@ -199,97 +181,82 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
   const projects = [
     {
-      name: "Car Rent",
+      name: "Metaverse Website",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A Modern Next 13 Website With Framer Motion & Tailwind CSS",
       tags: [
         {
-          name: "react",
+          name: "Next.js 13",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "tailwindCSS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Framer Motion",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "Three.js",
+          color: "green-text-gradient",
         },
       ],
-      image: carrent,
+      image: metaverse,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "SummarAIze: Article Summarizer",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A ReactJS project utilizing OpenAI's GPT model, developed with Vite and styled with Tailwind CSS. ",
       tags: [
         {
-          name: "react",
+          name: "Vite.js",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
+          name: "TailwindCSS",
           color: "pink-text-gradient",
         },
+        {
+          name: "Redux Toolkit",
+          color: "blue-text-gradient",
+        },
       ],
-      image: jobit,
+      image: sumz,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "ChatGPT: AI chat bot",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Seamless and interactive AI-powered ChatGPT clone developed with React, Next.js, Firebase, Tailwind CSS, and TypeScript.",
       tags: [
         {
-          name: "nextjs",
+          name: "Next.js 13",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "TypeScript",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "TailwindCSS",
           color: "pink-text-gradient",
         },
+        {
+          name: "Firebase",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NextAuth",
+          color: "green-text-gradient",
+        },
       ],
-      image: tripguide,
+      image: catgpt,
       source_code_link: "https://github.com/",
     },
   ];
   
-  export { navLinks, icons, services, technologies, experiences, educations, testimonials, projects};
+  export { navLinks, icons, technologies, experiences, educations, projects};
