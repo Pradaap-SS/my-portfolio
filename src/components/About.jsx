@@ -41,7 +41,7 @@ const About = () => {
         and Node.js and Express.js for back-end development. I have a strong 
         aptitude for learning and a passion for crafting efficient, scalable, 
         and user-friendly solutions that effectively address real-world problems. 
-        Let's work together to bring your ideas to life!
+        Let's work together to bring ideas to life!
       </motion.p>
     </>
   )
