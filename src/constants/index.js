@@ -158,7 +158,7 @@ import {
         "Developed and maintained database schemas using technologies like MySQL and MongoDB.",
         "Integrated third-party APIs and services to enhance application functionality.",
         "Conducted code reviews to ensure adherence to coding standards and best practices.",
-        "Performed unit testing and debugging to identify and resolve software defects.",
+        "Performed unit testing resulting in an improvement of test coverage by approximately 2% and debugging to identify and resolve software defects.",
         "Actively participated in Agile development processes, including sprint planning, daily stand-ups, and retrospective meetings.",
       ],
     },
@@ -171,7 +171,7 @@ import {
       points: [
         "Completed Generic training (Java programming and SQL) and Stream Training in Web Application Development.",
         "Developed proficiency in designing and developing web applications by utilizing HTML, CSS, and JavaScript to create intuitive user interfaces.",
-        "Implemented unit tests resulting in an improvement of test coverage by approximately 2%.",
+        "Executed unit tests that significantly enhanced test coverage and ensured robust code quality.",
       ],
     },
   ];
