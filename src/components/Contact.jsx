@@ -1,5 +1,9 @@
 import { icons } from "../constants";
 import { SectionWrapper } from "../hoc";
+import emailjs from "@emailjs/browser";
+import { styles } from "../styles";
+import { EarthCanvas } from "./canvas";
+import { slideIn } from "../utils/motion";
 
 const Contact = () => {
   const year = new Date().getFullYear();

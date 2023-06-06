@@ -1,14 +1,9 @@
+import { SectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { icons } from "../constants";
 
 const Hero = () => {
-  
-  const handleClick = () => {
-    window.location.href = './About.jsx';
-  };
-
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -28,7 +23,7 @@ const Hero = () => {
           <br/> 
 
             <p className='font-normal sm:text-[16px] xs:text-[14px] text-[18px] text-secondary mt-1'> 
-                I develop 3D visuals, user interfaces and web applications!
+                I develop user interfaces and web applications!
             </p>
 
             <div className='mt-2 flex flex-row gap-5'>
@@ -44,22 +39,20 @@ const Hero = () => {
                   </a>
                 ))}
             </div>
-
-           <button
-            className=' mt-2 font-normal sm:text-[16px] xs:text-[14px] text-[18px] rounded-full border-[#f9f8fa] w-auto
-            duration-300 text-center text-secondary hover:text-white underline'
-            onClick={handleClick}
-           >
-            Schedule a meeting..
-          </button>
-
           </p>
+          <div className='mt-3 flex flex-row'>
+          <a href="https://calendly.com/pradaap-shobha" 
+              className='mt-3 rounded-full bg-white font-normal sm:text-[16px] xs:text-[14px] text-[18px] duration-300 
+              text-secondary hover:text-black justify-center block p-2'> 
+                Schedule time with me... 
+            </a>
+          </div>
         </div>
       </div>
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 sm:block hidden'>
             <motion.div
               animate={{
                 y: [0, 24, 0],
@@ -69,13 +62,14 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className='w-3 h-3 rounded-full bg-secondary mb-1'
+              className='w-3 h-3 rounded-full bg-secondary mb-1 '
             />
           </div>
         </a>
       </div>
+
     </section>
   );
 };
 
-export default Hero;
+export default SectionWrapper(Hero, "hero");
