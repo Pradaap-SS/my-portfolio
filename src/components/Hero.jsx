@@ -22,8 +22,8 @@ const Hero = () => {
             Software Engineer | Graduate Student
           <br/> 
 
-            <p className='font-normal sm:text-[16px] xs:text-[14px] text-[18px] text-secondary mt-1'> 
-                I develop user interfaces and web applications!
+           <p className='font-normal sm:text-[16px] xs:text-[14px] text-[18px] text-secondary mt-1'> 
+                Aspiring MERN developer passionate about crafting robust and dynamic web applications. 
             </p>
 
             <div className='mt-2 flex flex-row gap-5'>
@@ -43,7 +43,7 @@ const Hero = () => {
           <div className='mt-3 flex flex-row'>
           <a href="https://calendly.com/pradaap-shobha" 
               className='mt-3 rounded-full bg-white font-normal sm:text-[16px] xs:text-[14px] text-[18px] duration-300 
-              text-secondary hover:text-black justify-center block p-2'> 
+              text-secondary hover:text-black justify-center block p-2' target="_blank"> 
                 Schedule time with me... 
             </a>
           </div>
