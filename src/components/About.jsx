@@ -37,10 +37,11 @@ const About = () => {
         className='m-10 text-secondary text-[17px] justify-center text-center leading-[30px]'
       >
         I'm a skilled software developer with experience in JavaScript, 
-        and expertise in frameworks like React, Node.js, and Three.js. 
-        I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        and expertise in frameworks like React.js for front-end development, 
+        and Node.js and Express.js for back-end development. I have a strong 
+        aptitude for learning and a passion for crafting efficient, scalable, 
+        and user-friendly solutions that effectively address real-world problems. 
+        Let's work together to bring your ideas to life!
       </motion.p>
     </>
   )
