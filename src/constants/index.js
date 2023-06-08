@@ -216,7 +216,7 @@ import {
       ],
       image: metaverse,
       source_code_link: "https://github.com/Pradaap-SS/metaverse-website",
-      source_url: "",
+      source_url: "https://metaverse-website-pradaap-ss.vercel.app/",
     },
     {
       name: "SummarAIze: Article Summarizer",
