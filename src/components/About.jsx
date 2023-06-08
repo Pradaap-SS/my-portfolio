@@ -38,7 +38,7 @@ const About = () => {
       >
         I'm a skilled software developer with experience in JavaScript, 
         and expertise in frameworks like React.js for front-end development, 
-        and Node.js and Express.js for back-end development. I have a strong 
+        and Node.js for back-end development. I have a strong 
         aptitude for learning and a passion for crafting efficient, scalable, 
         and user-friendly solutions that effectively address real-world problems. 
         Let's work together to bring ideas to life!
