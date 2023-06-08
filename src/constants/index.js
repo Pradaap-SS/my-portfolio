@@ -43,7 +43,7 @@ import {
     },
     {
       name: 'Resume',
-      link: 'https://example.com/your-resume.pdf',
+      link: 'https://drive.google.com/file/d/1kOiDVPf6o9smbokk_JtZz4-o82-oIZwA/view?usp=drive_link',
       iconClass: doc,
     },
   ];
