@@ -23,6 +23,7 @@ import {
     catgpt,
     sumz,
     metaverse,
+    product,
   } from "../assets";
 
   const icons = [
@@ -196,6 +197,28 @@ import {
   ];
   
   const projects = [
+    {
+      name: "AI-Powered 3D Product Website ",
+      description:
+        "Developed an AI-powered 3D graphics project using React and Three.js to enhance product website visuals.",
+      tags: [
+        {
+          name: "Next.js 13",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwindCSS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Framer Motion",
+          color: "green-text-gradient",
+        },
+      ],
+      image: product,
+      source_code_link: "https://github.com/Pradaap-SS/ThreeJS-3D-product-website",
+      source_url: "https://three-js-3-d-product-website-pradaap-ss.vercel.app/",
+    },
     {
       name: "Metaverse Website",
       description:

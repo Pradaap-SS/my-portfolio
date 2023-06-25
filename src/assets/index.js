@@ -33,6 +33,7 @@ import profile from "./profile.png";
 import catgpt from "./proj/catgpt.png";
 import sumz from "./proj/sumz.png";
 import metaverse from "./proj/metaverse.png";
+import product from "./proj/product.png";
 import github from "./proj/github.png";
 import url from "./proj/url.png";
 
@@ -68,4 +69,5 @@ export {
   catgpt,
   sumz,
   metaverse,
+  product,
 };
