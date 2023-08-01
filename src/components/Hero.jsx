@@ -15,10 +15,10 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
+          <h1 className={`${styles.heroHeadText} text-[#020202]`}>
             Hi, I'm <span className='text-[#915EFF]'>Pradaap</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-1 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-1 text-[#181515]`}>
             Software Engineer | Graduate Student
           <br/> 
 
@@ -43,7 +43,7 @@ const Hero = () => {
           <div className='mt-3 flex flex-row'>
           <a href="https://calendly.com/pradaap-shobha" 
               className='mt-3 rounded-full bg-white font-normal sm:text-[16px] xs:text-[14px] text-[18px] duration-300 
-              text-secondary hover:text-black justify-center block p-2' target="_blank"> 
+              text-secondary hover:text-black justify-center block p-2' style={{border: "2px solid grey"}} target="_blank"> 
                 Schedule time with me... 
             </a>
           </div>

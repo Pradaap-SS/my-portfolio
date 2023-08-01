@@ -24,8 +24,9 @@ const EducationCard = ({ education }) => {
        background: "#1d1836",
        color: "#fff",
      }}
-     contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+     contentArrowStyle={{ borderRight: "7px solid black" }}
      date={education.date}
+     dateClassName="black-date-text"
      iconStyle={{ background: education.iconBg }}
      icon={
        <div className='flex justify-center items-center w-full h-full'>
@@ -52,7 +53,7 @@ const EducationCard = ({ education }) => {
        {education.points.map((point, index) => (
          <li
            key={`education-point-${index}`}
-           className='text-white-100 text-[14px] pl-1 tracking-wider'
+           className='text-black-100 text-[14px] pl-1 tracking-wider'
          >
            {point}
          </li>

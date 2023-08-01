@@ -114,6 +114,10 @@
   -webkit-text-fill-color: transparent;
 }
 
+.black-date-text {
+  color: #000;
+}
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;
