@@ -1,6 +1,6 @@
 import logo from "./logo.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
+import menu from "./menu.png";
+import close from "./close.png";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
