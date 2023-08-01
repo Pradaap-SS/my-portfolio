@@ -35,7 +35,7 @@ const Hero = () => {
                     rel="noopener noreferrer"
                   >
 
-                <img src={icon.iconClass} alt='icons' className='w-12 h-12 object-contain bg-white rounded-full' /> 
+                <img src={icon.iconClass} alt='icons' className='w-12 h-12 object-contain bg-white rounded-full' style={{border: "2px solid grey"}} /> 
                   </a>
                 ))}
             </div>
