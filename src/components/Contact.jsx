@@ -141,7 +141,7 @@ const Contact = () => {
            </a>
       ))}
       </div>
-        <div className='mt-4 flex flex-row text-xs font-light justify-center'> &copy; {year} Pradaap Shobha  
+        <div className='mt-4 flex flex-row text-xs font-light text-black justify-center'> &copy; {year} Pradaap Shobha  
         </div>
       </>
   )
