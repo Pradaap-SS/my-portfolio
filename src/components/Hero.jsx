@@ -22,9 +22,9 @@ const Hero = () => {
             Software Engineer | Graduate Student
           <br/> 
 
-           <p className='font-normal sm:text-[16px] xs:text-[14px] text-[18px] text-secondary mt-1'> 
+           {/*<p className='font-normal sm:text-[16px] xs:text-[14px] text-[18px] text-secondary mt-1'> 
                 Aspiring MERN developer passionate about crafting robust and dynamic web applications. 
-            </p>
+  </p>*/}
 
             <div className='mt-2 flex flex-row gap-5'>
                 {icons.map((icon) => (

@@ -135,12 +135,12 @@ import {
       iconBg: "#383E56",
       date: "Apr 2021 - Aug 2022",
       points: [
-        "Designed and developed innovative solutions, including wristbands, requisitions, medical reports, smart-templates, and pharmacy labels, using company tools and JavaScript.",
+        "Designed and developed innovative solutions, including wristbands, requisitions, medical reports, smart-templates, and pharmacy labels, using company tools(PowerChart, Discern Visual Developer..etc).",
         "Collaborated closely with cross-functional teams and clients to gather requirements, analyze user needs, and develop effective solutions.",
         "Worked with databases (e.g. Oracle,  MySQL) for efficient data storage, retrieval, and ensuring data integrity and security.",
         "Automated reports to save ~ 50% of workload for clients.",
         "Conducted code reviews, identified bugs, and implemented necessary fixes for high-quality, maintainable software.",
-        "Utilized JavaScript to create interactive and dynamic features, improving application functionality and usability.",
+        "Utilized JavaScript, CCL(Cerner Command Language) to create interactive and dynamic features, improving application functionality and usability.",
         "Actively participated in Agile development processes (daily stand-ups, sprint planning, retrospectives) for timely feature delivery and continuous improvement.",
         "Assisted in troubleshooting and resolving user-reported issues, providing timely support for smooth application operation.",
       ],
@@ -197,6 +197,36 @@ import {
   ];
   
   const projects = [
+    {
+      name: "ChatGPT clone",
+      description:
+        "Seamless and interactive AI-powered Chat bot developed with React, Next.js, Firebase, Tailwind CSS, and TypeScript.",
+      tags: [
+        {
+          name: "Next.js 13",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NextAuth",
+          color: "green-text-gradient",
+        },
+      ],
+      image: catgpt,
+      source_code_link: "https://github.com/Pradaap-SS/chatgpt-messenger-app",
+      source_url: "https://chatgpt-messenger-app-pradaap-ss.vercel.app/",
+    },
     {
       name: "AI-Powered 3D Product Website ",
       description:
@@ -263,36 +293,7 @@ import {
       source_code_link: "https://github.com/Pradaap-SS/SummarAIze-The-Intelligent-Article-Summarizer",
       source_url: "https://summar-a-ize-the-intelligent-article-summarizer-pradaap-ss.vercel.app/",
     },
-    {
-      name: "ChatGPT clone",
-      description:
-        "Seamless and interactive AI-powered Chat bot developed with React, Next.js, Firebase, Tailwind CSS, and TypeScript.",
-      tags: [
-        {
-          name: "Next.js 13",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "TypeScript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "TailwindCSS",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Firebase",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "NextAuth",
-          color: "green-text-gradient",
-        },
-      ],
-      image: catgpt,
-      source_code_link: "https://github.com/Pradaap-SS/chatgpt-messenger-app",
-      source_url: "https://chatgpt-messenger-app-pradaap-ss.vercel.app/",
-    },
+    
   ];
   
   export { navLinks, icons, technologies, experiences, educations, projects};
