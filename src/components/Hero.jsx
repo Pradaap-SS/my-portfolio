@@ -44,7 +44,7 @@ const Hero = () => {
           <a href="https://calendly.com/pradaap-shobha" 
               className='mt-3 rounded-full bg-white font-normal sm:text-[16px] xs:text-[14px] text-[18px] duration-300 
               text-secondary hover:text-black justify-center block p-2' style={{border: "2px solid grey"}} target="_blank"> 
-                Schedule time with me... 
+                Let's Collide Calendars!
             </a>
           </div>
         </div>

@@ -15,6 +15,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import framermotion from "./tech/framermotion.png"
+import python from "./tech/python.png";
+import java from "./tech/java.png";
 
 import infosys from "./company/infosys.png";
 import cognizant from "./company/cognizant.png";
@@ -70,4 +72,6 @@ export {
   sumz,
   metaverse,
   product,
+  python,
+  java
 };

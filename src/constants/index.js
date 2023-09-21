@@ -24,6 +24,8 @@ import {
     sumz,
     metaverse,
     product,
+    python,
+    java
   } from "../assets";
 
   const icons = [
@@ -98,8 +100,12 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Java",
+      icon: java,
     },
     {
       name: "Tailwind CSS",
