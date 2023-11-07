@@ -46,7 +46,7 @@ import {
     },
     {
       name: 'Resume',
-      link: 'https://drive.google.com/file/d/1kOiDVPf6o9smbokk_JtZz4-o82-oIZwA/view?usp=drive_link',
+      link: 'https://drive.google.com/file/d/1Iyi_m362jxP_mf0tNAQT0_ZU455d0a2r/view?usp=sharing',
       iconClass: doc,
     },
   ];
@@ -142,11 +142,11 @@ import {
       date: "Apr 2021 - Aug 2022",
       points: [
         "Designed and developed innovative solutions, including wristbands, requisitions, medical reports, smart-templates, and pharmacy labels, using company tools(PowerChart, Discern Visual Developer..etc).",
-        "Collaborated closely with cross-functional teams and clients to gather requirements, analyze user needs, and develop effective solutions.",
-        "Worked with databases (e.g. Oracle,  MySQL) for efficient data storage, retrieval, and ensuring data integrity and security.",
-        "Automated reports to save ~ 50% of workload for clients.",
+        "Served as a primary point of contact, representing Cerner to large-scale hospitals. Understood their requirements and created both scheduled and ad-hoc reports using SQL and PowerBI, aiding in the identification of trends contributing significantly, leading to a 95% client satisfaction rate, and helping in data-driven decision-making processes.",
+        "Developed software solutions for data import and export within Cerner systems, leading to a 10% improvement in efficiency and automated reports to save ~ 50% of workload for clients.",
+        "Implemented reusable Java functions to cache patient data, eliminating repetitive database querying and optimized performance of Data Migration Export tool, resulting in 30% time reduction for generating HL7 and CSV messages.",
         "Conducted code reviews, identified bugs, and implemented necessary fixes for high-quality, maintainable software.",
-        "Utilized JavaScript, CCL(Cerner Command Language) to create interactive and dynamic features, improving application functionality and usability.",
+        "Proficiently used version control tools like Jira, GitHub, TortoiseCVS to manage code changes and collaborate effectively with team members, ensuring code integrity and version history.",
         "Actively participated in Agile development processes (daily stand-ups, sprint planning, retrospectives) for timely feature delivery and continuous improvement.",
         "Assisted in troubleshooting and resolving user-reported issues, providing timely support for smooth application operation.",
       ],
@@ -177,8 +177,8 @@ import {
       date: "Feb 2020 - Mar 2020",
       points: [
         "Completed Generic training (Java programming and SQL) and Stream Training in Web Application Development.",
-        "Developed proficiency in designing and developing web applications by utilizing HTML, CSS, and JavaScript to create intuitive user interfaces.",
-        "Executed unit tests that significantly enhanced test coverage and ensured robust code quality.",
+        "Assisted in the development of web applications and gained hands-on experience with front-end and back-end technologies. Contributed to the creation of responsive web pages using HTML, CSS, and JavaScript.",
+        "Worked with the team to develop and test RESTful APIs and database queries. Gained exposure to version control and code collaboration using Git.",
       ],
     },
   ];
