@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from "framer-motion";
+import { useTheme } from "./ThemeContext";import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github, url } from "../assets";
 import { SectionWrapper } from "../hoc";
@@ -79,18 +79,19 @@ const ProjectCard = ({
     )
 }
 const Projects = () => {
+  const { theme } = useTheme();
+  
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}> My work </p>
-        <h2 className={`${styles.sectionHeadText} flex flex-row justify-center text-center`}>Projects.</h2>
+        <p className={`${styles.sectionSubText} text-center ${theme === 'light' ? 'text-black' : 'text-white'}`}> My work </p>
+        <h2 className={`${styles.sectionHeadText} flex flex-row justify-center text-center ${theme === 'light' ? 'text-black' : 'text-white'}`}>Projects.</h2>
       </motion.div>
 
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] justify-center text-center leading-[30px]'
-        >
+          className={`mt-3 text-secondary text-[17px] justify-center text-center leading-[30px] ${theme === 'light' ? 'text-black' : 'text-white'}`} >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
           links to code repositories and its deployed url. It reflects my

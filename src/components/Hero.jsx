@@ -2,8 +2,11 @@ import { SectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { icons } from "../constants";
+import { useTheme } from './ThemeContext';
 
 const Hero = () => {
+  const { theme } = useTheme();
+  
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -15,15 +18,15 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-[#020202]`}>
-            Hi, I'm <span className='text-[#915EFF]'>Pradaap</span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-1 text-[#181515]`}>
-            Software Engineer | Graduate Student
-          <br/> 
+            <h1 className={`${styles.heroHeadText} ${theme === 'light' ? 'text-black' : 'text-white'}`}>
+              Hi, I'm <span className='text-[#915EFF]'>Pradaap</span>
+            </h1>
+            <p className={`${styles.heroSubText} mt-1 ${theme === 'light' ? 'text-black' : 'text-white'}`}>
+              Software Engineer | Graduate Student
+            <br/> 
 
-           {/*<p className='font-normal sm:text-[16px] xs:text-[14px] text-[18px] text-secondary mt-1'> 
-                Aspiring MERN developer passionate about crafting robust and dynamic web applications. 
+            {/*<p className='font-normal sm:text-[16px] xs:text-[14px] text-[18px] text-secondary mt-1'> 
+                  Aspiring MERN developer passionate about crafting robust and dynamic web applications. 
   </p>*/}
 
             <div className='mt-2 flex flex-row gap-5'>

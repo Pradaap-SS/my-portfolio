@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTheme } from './ThemeContext';
 
 
 import {
@@ -65,13 +66,15 @@ const EducationCard = ({ education }) => {
 
 
 const Education = () => {
+const { theme } = useTheme();
+
  return (
    <>
      <motion.div variants={textVariant()}>
-       <p className={`${styles.sectionSubText} text-center`}>
+       <p className={`${styles.sectionSubText} ${theme === 'light' ? 'text-black' : 'text-white'} text-center`}>
          What I have done so far
        </p>
-       <h2 className={`${styles.sectionHeadText} text-center`}>
+       <h2 className={`${styles.sectionHeadText} ${theme === 'light' ? 'text-black' : 'text-white'} text-center`}>
          Education.
        </h2>
      </motion.div>

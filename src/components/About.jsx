@@ -5,14 +5,16 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { Tilt } from "react-tilt";
 import { profile } from "../assets";
+import { useTheme } from './ThemeContext';
 
 const About = () => {
+
+  const { theme } = useTheme();
   return (
     <>
-      
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}> Introduction </p>
-        <h2 className={`${styles.sectionHeadText} flex flex-row justify-center text-center`}>About.</h2>
+        <p className={`${styles.sectionSubText} text-center ${theme === 'light' ? 'text-black' : 'text-white'}`}> Introduction </p>
+        <h2 className={`${styles.sectionHeadText} flex flex-row justify-center text-center ${theme === 'light' ? 'text-black' : 'text-white'}`}>About.</h2>
       </motion.div>
 
       <div className='mt-4 flex flex-wrap justify-center gap-10'>
@@ -34,7 +36,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='m-10 text-secondary text-[17px] justify-center text-center leading-[30px]'
+        className={`m-10 text-[17px] justify-center text-center leading-[30px] ${theme === 'light' ? 'text-black' : 'text-white'}`}
       >
         I'm a skilled software developer with experience in Java, Python, JavaScript, 
         and expertise in frameworks like React.js for front-end development, 

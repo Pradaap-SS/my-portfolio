@@ -1,14 +1,22 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { useTheme } from './ThemeContext'; 
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  /*const [theme, setTheme] = useState('light');  // Initially, set the theme to 'light'.
+  const toggleTheme = () => {
+    setTheme(theme === 'light' ? 'dark' : 'light');
+  };*/
+  const { theme, toggleTheme } = useTheme();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,12 +35,12 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${
-        styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
-      }`}
-    >
+    className={`${
+      styles.paddingX
+    } w-full flex items-center py-5 fixed top-0 z-20 ${
+      scrolled ? 'bg-primary' : 'bg-transparent'
+    } ${theme === 'dark' ? 'dark-theme' : ''}`}
+  >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
           to='/'
@@ -53,14 +61,27 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-black" : "text-secondary"
-              } hover:text-black text-[18px] font-medium cursor-pointer`}
+                active === nav.title ? (theme === 'light'? 'text-[#9848e8]' : 'text-[#00FFFF]')
+                 : (theme === 'light' ? 'text-black' : 'text-white')
+              } (theme === 'light' ? hover:'text-black' : hover:'text-white') text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          {/* Theme Switch */}
+          <div className={`navbar ${theme}`}>
+            <div className="theme-switch" onClick={toggleTheme}>
+              {theme === 'light' ? (
+                <span role="img" aria-label="Switch to Dark Theme">🌙</span>
+              ) : (
+                <span role="img" aria-label="Switch to Light Theme">☀️</span>
+              )}
+            </div>
+          </div>
         </ul>
+
+        
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img

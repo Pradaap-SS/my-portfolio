@@ -7,7 +7,6 @@ import Experience from './Experience';
 import Education from './Education';
 import Projects from './Projects';
 import Contact from './Contact';
-import ThemeSwitch from './ThemeSwitch';
 
 export {
   Hero,
@@ -20,5 +19,4 @@ export {
   Contact,
   EarthCanvas, 
   BallCanvas,
-  ThemeSwitch,
 }

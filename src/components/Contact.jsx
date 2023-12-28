@@ -1,4 +1,5 @@
 import { icons } from "../constants";
+import { useTheme } from "./ThemeContext";
 import { SectionWrapper } from "../hoc";
 import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
@@ -8,6 +9,7 @@ import { motion } from "framer-motion";
  
 const Contact = () => {
   
+  const { theme } = useTheme();
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -72,8 +74,8 @@ const Contact = () => {
     <div className={`overflow-hidden`}>
       
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>Get in touch</p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>Contact.</h2>
+        <p className={`${styles.sectionSubText} text-center ${theme === 'light' ? 'text-black' : 'text-white'}`}>Get in touch</p>
+        <h2 className={`${styles.sectionHeadText} text-center ${theme === 'light' ? 'text-black' : 'text-white'}`}>Contact.</h2>
        </motion.div>
      
      <motion.div
@@ -141,7 +143,7 @@ const Contact = () => {
            </a>
       ))}
       </div>
-        <div className='mt-4 flex flex-row text-xs font-light text-black justify-center'> &copy; {year} Pradaap Shobha  
+        <div className={`mt-4 flex flex-row text-xs font-light justify-center ${theme === 'light' ? 'text-black' : 'text-white'}`}>&copy; {year} Pradaap Shobha
         </div>
       </>
   )
