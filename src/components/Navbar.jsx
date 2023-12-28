@@ -12,10 +12,6 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  /*const [theme, setTheme] = useState('light');  // Initially, set the theme to 'light'.
-  const toggleTheme = () => {
-    setTheme(theme === 'light' ? 'dark' : 'light');
-  };*/
   const { theme, toggleTheme } = useTheme();
 
   useEffect(() => {
@@ -35,12 +31,12 @@ const Navbar = () => {
 
   return (
     <nav
-    className={`${
-      styles.paddingX
-    } w-full flex items-center py-5 fixed top-0 z-20 ${
-      scrolled ? 'bg-primary' : 'bg-transparent'
-    } ${theme === 'dark' ? 'dark-theme' : ''}`}
-  >
+      className={`${
+        styles.paddingX
+      } w-full flex items-center py-5 fixed top-0 z-20 ${
+        scrolled ? 'bg-primary' : 'bg-transparent'
+      } ${theme === 'dark' ? 'dark-theme' : ''}`}
+    >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
           to='/'
@@ -56,34 +52,16 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
-          {navLinks.map((nav) => (
-            <li
-              key={nav.id}
-              className={`${
-                active === nav.title ? (theme === 'light'? 'text-[#9848e8]' : 'text-[#00FFFF]')
-                 : (theme === 'light' ? 'text-black' : 'text-white')
-              } (theme === 'light' ? hover:'text-black' : hover:'text-white') text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
-            >
-              <a href={`#${nav.id}`}>{nav.title}</a>
-            </li>
-          ))}
-          {/* Theme Switch */}
-          <div className={`navbar ${theme}`}>
-            <div className="theme-switch" onClick={toggleTheme}>
-              {theme === 'light' ? (
-                <span role="img" aria-label="Switch to Dark Theme">🌙</span>
-              ) : (
-                <span role="img" aria-label="Switch to Light Theme">☀️</span>
-              )}
-            </div>
-          </div>
-        </ul>
-
-        
-
         <div className='sm:hidden flex flex-1 justify-end items-center'>
+          {/* Theme Switch for small screens */}
+          <div className={`navbar ${theme} mr-4`} onClick={toggleTheme}>
+            {theme === 'light' ? (
+              <span role="img" aria-label="Switch to Dark Theme">🌙</span>
+            ) : (
+              <span role="img" aria-label="Switch to Light Theme">☀️</span>
+            )}
+          </div>
+
           <img
             src={toggle ? close : menu}
             alt='menu'
@@ -113,6 +91,32 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
+
+        <ul className='list-none hidden sm:flex flex-row gap-10'>
+          {navLinks.map((nav) => (
+            <li
+              key={nav.id}
+              className={`${
+                active === nav.title ? (theme === 'light'? 'text-[#9848e8]' : 'text-[#00FFFF]')
+                 : (theme === 'light' ? 'text-black' : 'text-white')
+              } (theme === 'light' ? hover:'text-black' : hover:'text-white') text-[18px] font-medium cursor-pointer`}
+              onClick={() => setActive(nav.title)}
+            >
+              <a href={`#${nav.id}`}>{nav.title}</a>
+            </li>
+          ))}
+           {/* Theme Switch */}
+           <div className={`navbar ${theme}`}>
+            <div className="theme-switch" onClick={toggleTheme}>
+              {theme === 'light' ? (
+                <span role="img" aria-label="Switch to Dark Theme">🌙</span>
+              ) : (
+                <span role="img" aria-label="Switch to Light Theme">☀️</span>
+              )}
+            </div>
+          </div>  
+        </ul>
+
       </div>
     </nav>
   );
