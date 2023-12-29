@@ -46,7 +46,7 @@ const Tech = () => {
             >
               <BallCanvas icon={technology.icon} />
               <div
-                className={`text-center text-[#050816] transitio-opacity duration-300 ${
+                className={`text-center ${theme === 'light' ? 'text-black' : 'text-white'} transitio-opacity duration-300 ${
                   hoveredTechnology === technology ? 'opacity-100' : 'opacity-0'
                 }`}
               >
