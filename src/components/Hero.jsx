@@ -3,9 +3,16 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { icons } from "../constants";
 import { useTheme } from './ThemeContext';
+import { Cursor, useTypewriter } from 'react-simple-typewriter'
 
 const Hero = () => {
   const { theme } = useTheme();
+
+    const [text, count] = useTypewriter({
+      words:["Software Engineer","Full Stack Developer", "Graduate Student"],
+      loop: true,
+      delaySpeed: 2000,
+    })
   
   return (
     <section className={`relative w-full h-screen mx-auto`}>
@@ -22,12 +29,13 @@ const Hero = () => {
               Hi, I'm <span className='text-[#915EFF]'>Pradaap</span>
             </h1>
             <p className={`${styles.heroSubText} mt-1 ${theme === 'light' ? 'text-black' : 'text-white'}`}>
-              Software Engineer | Graduate Student
+              {text}
+            <Cursor cursorColor='[#915EFF]'></Cursor>
+            <br/>
             <br/> 
-
             {/*<p className='font-normal sm:text-[16px] xs:text-[14px] text-[18px] text-secondary mt-1'> 
                   Aspiring MERN developer passionate about crafting robust and dynamic web applications. 
-  </p>*/}
+            </p>*/}
 
             <div className='mt-2 flex flex-row gap-5'>
                 {icons.map((icon) => (
