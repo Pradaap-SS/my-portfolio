@@ -36,7 +36,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className={`m-10 text-[17px] justify-center text-justify leading-[30px] ${theme === 'light' ? 'text-black' : 'text-white'}`}
+        className={`m-10 text-[17px] md:text-[17px] sm:text-[14px] xs:text-[12px] justify-center text-justify leading-[30px] ${theme === 'light' ? 'text-black' : 'text-white'}`}
       >
         {/*I'm a skilled software developer with experience in Java, Python, JavaScript, 
         and expertise in frameworks like React.js for front-end development, 
