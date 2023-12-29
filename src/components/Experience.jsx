@@ -65,11 +65,19 @@ const Experience = () => {
   
   return (
     <>
-      <div>
+      {/*<div>
         <h2 className={`${styles.sectionHeadText} ${theme === 'light' ? 'text-black' : 'text-white'} flex flex-row justify-center text-center`}>
           Work Experience.
         </h2>
-      </div>
+      </div>*/}
+      <motion.div variants={textVariant()}>
+       <p className={`${styles.sectionSubText} ${theme === 'light' ? 'text-black' : 'text-white'} text-center`}>
+         What I have done so far
+        </p>
+       <h2 className={`${styles.sectionHeadText} flex flex-row justify-center ${theme === 'light' ? 'text-black' : 'text-white'} text-center`}>
+         Work Experience.
+       </h2>
+     </motion.div>
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline   
