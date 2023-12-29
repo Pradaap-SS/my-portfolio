@@ -66,10 +66,10 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText} flex flex-row justify-center ${theme === 'light' ? 'text-black' : 'text-white'} text-center`}>
+        <h2 className={`${styles.sectionHeadText} flex flex-row justify-center text-center text-white`}>
           Work Experience.
         </h2>
-     </motion.div>
+      </motion.div>
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline   
