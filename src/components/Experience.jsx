@@ -1,5 +1,5 @@
-import React from "react";
-import { useTheme } from "./ThemeContext";
+import React from 'react'
+import { useTheme } from './ThemeContext';
 
 
 import {
@@ -66,7 +66,7 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText} flex flex-row justify-center text-center text-white`}>
+        <h2 className={`${styles.sectionHeadText} ${theme === 'light' ? 'text-black' : 'text-white'} flex flex-row justify-center text-center`}>
           Work Experience.
         </h2>
       </motion.div>
