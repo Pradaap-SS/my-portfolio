@@ -56,14 +56,14 @@ const About = () => {
           <b>💻 Tech Stack Mastery</b>
         <br/>
           My expertise lies in backend technologies, where I excel in designing and implementing scalable architectures. 
-          Proficient in languages such as [List of backend languages, e.g., Python, Java, Node.js], I am adept at building APIs, 
+          Proficient in languages such as e.g., Python, Java, Node.js, I am adept at building APIs, 
           optimizing databases, and ensuring seamless integration with frontend frameworks.
 
         <br/><br/>
           <b>🌐 Full Stack Prowess</b>
         <br/>
           While backend development is my forte, I'm no stranger to the entire development stack. From crafting responsive and intuitive 
-          user interfaces with [Frontend technologies, e.g., React, Angular], to orchestrating seamless communication between frontend 
+          user interfaces with Frontend technologies, e.g., React, Angular, to orchestrating seamless communication between frontend 
           and backend, I bring a holistic approach to application development.
 
         <br/><br/>
@@ -81,7 +81,7 @@ const About = () => {
           efficiently.
         <br/><br/>
           Let's connect and discuss how I can contribute to your next project! Feel free to reach out for opportunities to collaborate 
-          on exciting ventures or discuss the latest trends in backend development.
+          on exciting ventures.
       </motion.p>
     </>
   )
