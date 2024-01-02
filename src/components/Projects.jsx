@@ -91,7 +91,7 @@ const Projects = () => {
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className={`mt-3 text-secondary text-[17px] justify-center text-center leading-[30px] ${theme === 'light' ? 'text-black' : 'text-white'}`} >
+          className={`mt-3 text-[17px] justify-center text-center leading-[30px] ${theme === 'light' ? 'text-black' : 'text-white'}`} >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
           links to code repositories and its deployed url. It reflects my
