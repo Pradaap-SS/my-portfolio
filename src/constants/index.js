@@ -46,7 +46,7 @@ import {
     },
     {
       name: 'Resume',
-      link: 'https://drive.google.com/file/d/1Iyi_m362jxP_mf0tNAQT0_ZU455d0a2r/view?usp=sharing',
+      link: 'https://docs.google.com/document/d/1bhUmSmADHX9t_StG33WePg3dLUV4uiTuOCjOQ59mmL4/edit?usp=sharing',
       iconClass: doc,
     },
   ];
@@ -141,15 +141,11 @@ import {
       iconBg: "#383E56",
       date: "Apr 2021 - Aug 2022",
       points: [
-        "Designed and developed innovative solutions, including wristbands, requisitions, medical reports, smart-templates, and pharmacy labels, using company tools(PowerChart, Discern Visual Developer..etc).",
-        "Served as a primary point of contact, representing Cerner to large-scale hospitals. Understood their requirements and created both scheduled and ad-hoc reports using SQL and PowerBI, aiding in the identification of trends contributing significantly, leading to a 95% client satisfaction rate, and helping in data-driven decision-making processes.",
-        "Developed software solutions for data import and export within Cerner systems, leading to a 10% improvement in efficiency and automated reports to save ~ 50% of workload for clients.",
-        "Implemented reusable Java functions to cache patient data, eliminating repetitive database querying and optimized performance of Data Migration Export tool, resulting in 30% time reduction for generating HL7 and CSV messages.",
-        "Conducted code reviews, identified bugs, and implemented necessary fixes for high-quality, maintainable software.",
-        "Proficiently used version control tools like Jira, GitHub, TortoiseCVS to manage code changes and collaborate effectively with team members, ensuring code integrity and version history.",
-        "Actively participated in Agile development processes (daily stand-ups, sprint planning, retrospectives) for timely feature delivery and continuous improvement.",
-        "Assisted in troubleshooting and resolving user-reported issues, providing timely support for smooth application operation.",
-      ],
+        "Designed and developed progressive solutions, including wristbands, requisitions, medical reports, smart-templates, and pharmacy labels, using CCL, SQL, JavaScript and company tools (Egs. PowerChart, Discern Visual Developer etc).",
+        "Implemented reusable Java functions, optimizing Data Migration Export tool by 30%, conducting code reviews, bug fixes, and proficiently using Jira, GitHub, TortoiseCVS for version control.",
+        "Established data import/export solutions within Cerner systems, achieving a 10% improvement in code efficiency and automated reports, resulting in a 95% client satisfaction rate and ~ 50% workload reduction.",
+        "Facilitated seamless collaboration with stakeholders and Software Architect in Agile development setting, translating requirements into technical specifications, emphasizing teamwork, email etiquette, and effective communication.",
+],
     },
     {
       title: "Programmer Analyst Trainee",
@@ -158,16 +154,11 @@ import {
       iconBg: "#E6DEDD",
       date: "Sept 2020 - Apr 2021",
       points: [
-        "Designed and developed responsive web applications using Spring Boot, React.js, and Node.js.",
-        "Collaborated with cross-functional teams for requirements gathering and translating them into technical specifications.",
-        "Implemented RESTful APIs to enable seamless communication between front-end and back-end systems.",
-        "Utilized Spring Framework to implement various modules, such as dependency injection, transaction management, and security.",
-        "Developed and maintained database schemas using technologies like MySQL and MongoDB.",
-        "Integrated third-party APIs and services to enhance application functionality.",
-        "Conducted code reviews to ensure adherence to coding standards and best practices.",
-        "Performed unit testing resulting in an improvement of test coverage by approximately 2% and debugging to identify and resolve software defects.",
-        "Actively participated in Agile development processes, including sprint planning, daily stand-ups, and retrospective meetings.",
-      ],
+        "Designed and developed responsive web apps with Spring Boot, React.js, and Node.js, showcasing strong problem-solving skills and JavaScript expertise.",
+        "Implemented robust RESTful APIs, seamlessly connecting front-end and back-end systems, leveraging Spring Framework for dependency injection, transaction management, and security implementation.",
+        "Managed database schemas using MySQL and MongoDB, conducted code reviews, increased unit test coverage by 2%, and maintained version control on GitHub, enhancing overall software quality.",
+        "Actively engaged in Scrum processes, participating in sprint planning, stand-up meetings, and retrospectives, showcasing strong problem-solving, time management, and collaboration skills.",
+        ],
     },
     {
       title: "Software Developer Intern",
@@ -176,10 +167,10 @@ import {
       iconBg: "#383E56",
       date: "Feb 2020 - Mar 2020",
       points: [
-        "Completed Generic training (Java programming and SQL) and Stream Training in Web Application Development.",
-        "Assisted in the development of web applications and gained hands-on experience with front-end and back-end technologies. Contributed to the creation of responsive web pages using HTML, CSS, and JavaScript.",
-        "Worked with the team to develop and test RESTful APIs and database queries. Gained exposure to version control and code collaboration using Git.",
-      ],
+        "Accomplished training in Python, SQL, and Open Source, focusing on web app development, Linux systems, and databases.",
+        "Contributed to web app development, and gained hands-on experience with front-end and back-end technologies, creating responsive pages with HTML, CSS, and JavaScript.",
+        "Collaborated on Open Source projects, to develop and test RESTful APIs and database queries, honing problem-solving skills, and mastering version control with Git for effective development.]",
+      ]
     },
   ];
 
