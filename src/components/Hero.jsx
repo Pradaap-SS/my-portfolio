@@ -4,6 +4,7 @@ import { styles } from "../styles";
 import { icons } from "../constants";
 import { useTheme } from './ThemeContext';
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
+import { ComputersCanvas, EarthCanvas } from "./canvas";
 
 const Hero = () => {
   const { theme } = useTheme();
@@ -60,6 +61,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
+
+      <ComputersCanvas/>
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
