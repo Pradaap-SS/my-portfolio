@@ -4,13 +4,13 @@ import { styles } from "../styles";
 import { icons } from "../constants";
 import { useTheme } from './ThemeContext';
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
-import { ComputersCanvas, EarthCanvas } from "./canvas";
+import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   const { theme } = useTheme();
 
     const [text, count] = useTypewriter({
-      words:["Software Engineer","Full Stack Developer", "Graduate Student"],
+      words:["Software Engineer","Full Stack Developer", "Back-end Developer"],
       loop: true,
       delaySpeed: 2000,
     })
